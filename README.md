@@ -28,6 +28,8 @@
 
 ## 📁 Folder Structure
 
+📁 Folder Structure
+
 ThoughtCapsule/
 ├── src/
 │   └── main/
@@ -38,14 +40,13 @@ ThoughtCapsule/
 │       │   ├── repository/
 │       │   ├── service/
 │       │   └── ThoughtCapsuleApplication.java
-│       │
 │       └── resources/
 │           └── application.properties
 │
 ├── frontend/
-│   ├── HTML/
-│   ├── CSS/
-│   └── JS/
+│   ├── html/
+│   ├── css/
+│   └── js/
 │
 ├── pom.xml
 └── README.md
