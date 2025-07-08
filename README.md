@@ -30,25 +30,42 @@
 
 📁 Folder Structure
 
+📁 Folder Structure
+
 ThoughtCapsule/
+
 ├── src/
+
 │   └── main/
+
 │       ├── java/com/example/Thought_Capsule/
+
 │       │   ├── controller/
+
 │       │   ├── dto/
+
 │       │   ├── entity/
+
 │       │   ├── repository/
+
 │       │   ├── service/
+
 │       │   └── ThoughtCapsuleApplication.java
+
 │       └── resources/
+
 │           └── application.properties
-│
+
 ├── frontend/
+
 │   ├── html/
+
 │   ├── css/
+
 │   └── js/
-│
-├── pom.xml
+
+├── pom.xml  
+
 └── README.md
 
 
@@ -70,9 +87,11 @@ ThoughtCapsule/
 Hello,
 
 You received a Thought Capsule from SIVANARAYANAN M 🎁
+
 Created on: 8 July 2025
 
 💌 Message ID: 44
+
 🔐 PIN Code: 1234
 
 📝 Message:
@@ -85,7 +104,9 @@ Created on: 8 July 2025
 ――――――――――――――――――――――――――――――
 
 📦 This message was sent via Thought Capsule
+
 A time-locked message delivery service that lets people send memories into the future.
+
 🔐 Secure your thoughts today — unlock them when the time is right!
 
 
