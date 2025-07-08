@@ -1,0 +1,94 @@
+/* Background */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #d4fc79 0%, #96e6a1 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container */
+.container {
+  width: 100%;
+  max-width: 460px;
+  padding: 20px;
+}
+
+/* Glass card */
+.card {
+  padding: 2rem;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  color: #333;
+  text-align: center;
+}
+
+/* Headings */
+h1 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  font-size: 0.95rem;
+  color: #222;
+  margin-bottom: 1.5rem;
+}
+
+/* Form */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input {
+  padding: 12px;
+  font-size: 1rem;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-family: inherit;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+button {
+  padding: 12px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  background-color: #00b894;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background-color: #019875;
+}
+
+.back-btn {
+  background: transparent;
+  color: #333;
+  font-size: 0.9rem;
+  text-decoration: underline;
+  border: none;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+/* Response Message */
+.response {
+  margin-top: 1.5rem;
+  font-weight: bold;
+  font-size: 0.95rem;
+  color: #2d3436;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+}

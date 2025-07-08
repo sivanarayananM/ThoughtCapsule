@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Unlock Capsule</title>
+  <link rel="stylesheet" href="unlock.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Orbitron:wght@500&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <h1>🔓 Unlock Your Capsule</h1>
+      <p class="subtitle">Enter your Message ID and 4-digit PIN to unlock.</p>
+      
+      <form id="unlockForm" autocomplete="off" spellcheck="false">
+        <input
+          type="number"
+          id="messageId"
+          placeholder="📩 Message ID"
+          required
+          min="1"
+          step="1"
+          autofocus
+        />
+        <input
+          type="number"
+          id="pinCode"
+          placeholder="🔑 4-digit PIN"
+          required
+          min="1000"
+          max="9999"
+        />
+        <button type="submit">Unlock Capsule</button>
+      </form>
+
+      <div id="messageDisplay" class="response"></div>
+
+      <button class="back-btn" onclick="location.href='index.html'">← Back to Home</button>
+    </div>
+  </div>
+
+  <script src="unlock.js"></script>
+</body>
+</html>
