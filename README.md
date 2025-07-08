@@ -28,32 +28,42 @@
 
 ## 📁 Folder Structure
 
-📁 Folder Structure
-
-📁 Folder Structure
-
-📁 Folder Structure
-
 ThoughtCapsule/
+
 ├── src/
+
 │   └── main/
+
 │       ├── java/com/example/Thought_Capsule/
+
 │       │   ├── controller/
+
 │       │   ├── dto/
+
 │       │   ├── entity/
+
 │       │   ├── repository/
+
 │       │   ├── service/
+
 │       │   └── ThoughtCapsuleApplication.java
+
 │       └── resources/
+
 │           └── application.properties
-│
+
 ├── frontend/
+
 │   ├── html/
+
 │   ├── css/
+
 │   └── js/
-│
+
 ├── pom.xml  
+
 └── README.md
+
 
 
 ---
