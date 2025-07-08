@@ -28,6 +28,11 @@
 
 ## 📁 Folder Structure
 
+<<<<<<< HEAD
+=======
+📁 Folder Structure
+
+>>>>>>> 58ea482 (Make mvnw executable for Render)
 ThoughtCapsule/
 
 ├── src/
