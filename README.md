@@ -28,27 +28,27 @@
 
 ## 📁 Folder Structure
 
-📁 ThoughtCapsule/
-├── 📂 src/
-│   └── 📂 main/
-│       ├── 📂 java/com.example.Thought_Capsule/
-│       │   ├── 📂 controller/       → 📄 MessageController
-│       │   ├── 📂 dto/             → 📄 MessageRequestDto, MessageResponseDto
-│       │   ├── 📂 entity/          → 📄 Message
-│       │   ├── 📂 repository/      → 📄 MessageRepository
-│       │   ├── 📂 service/         → 📄 MessageService, EmailScheduler
-│       │   └── 📄 ThoughtCapsuleApplication.java
-│       └── 📂 resources/
-│           └── 📄 application.properties
+ThoughtCapsule/
+├── src/
+│   └── main/
+│       ├── java/com/example/Thought_Capsule/
+│       │   ├── controller/
+│       │   ├── dto/
+│       │   ├── entity/
+│       │   ├── repository/
+│       │   ├── service/
+│       │   └── ThoughtCapsuleApplication.java
+│       │
+│       └── resources/
+│           └── application.properties
 │
-├── 📂 frontend/
-│   ├── 📄 index.html      📄 create.html      📄 unlock.html
-│   ├── 🎨 style.css       🎨 create.css       🎨 unlock.css
-│   └── 📜 create.js       📜 unlock.js
+├── frontend/
+│   ├── HTML/
+│   ├── CSS/
+│   └── JS/
 │
-├── 📄 pom.xml
-└── 📄 README.md
-
+├── pom.xml
+└── README.md
 
 
 ---
@@ -82,6 +82,7 @@ Created on: 8 July 2025
 📎 Media Link: http://newMessage.com
 
 ――――――――――――――――――――――――――――――
+
 📦 This message was sent via Thought Capsule
 A time-locked message delivery service that lets people send memories into the future.
 🔐 Secure your thoughts today — unlock them when the time is right!
