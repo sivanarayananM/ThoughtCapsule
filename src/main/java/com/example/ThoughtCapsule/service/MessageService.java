@@ -132,6 +132,13 @@ public class MessageService {
                 body.append("\n📎 Media Link: ").append(message.getMediaUrl()).append("\n");
             }
 
+            // Footer message
+            body.append("\n\n")
+                    .append("- - - - - - - - - - - - - - - - - - - - - - - - - - -\n")
+                    .append("📦 This message was sent via Thought Capsule\n")
+                    .append("A time-locked message delivery service that lets people send memories into the future.\n")
+                    .append("🔐 Secure your thoughts today — unlock them when the time is right!");
+
             SimpleMailMessage email = new SimpleMailMessage();
             email.setTo(to);
             email.setFrom(message.getSenderEmail());  // Sender email must be set and valid
